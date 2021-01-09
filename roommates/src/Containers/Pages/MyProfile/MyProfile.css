@@ -1,12 +1,23 @@
-.dot {
-    height: 500px;
-    width: 500px;
-    background-color: red;
-    border-radius: 50%;
-  }
+.img {
+  z-index: -1;
+  /* position: absolute; */
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
 
 .myProfile {
     background-image: url('./blake-woolwine-9w4msoUPAmo-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: 100%;    /* background-size: 50%; */
+}
+
+.info{
+  position:absolute;
+  top: 40%;
+  right: 50%;
 }
