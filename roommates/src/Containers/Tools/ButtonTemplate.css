@@ -1,11 +1,11 @@
 /* <- Demo Stuff Start */
 
-body{
+.btntemplate {
     font-family: 'Montserrat', sans-serif;
     margin:0;
   }
   
-  .container {
+  /* .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
     width: 80vw;
     margin: 0 auto;
     min-height: 100vh;
-  }
+  } */
   .btn {
     flex: 1 1 auto;
     margin: 10px;

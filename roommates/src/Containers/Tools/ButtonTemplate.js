@@ -5,8 +5,8 @@ class ButtonTemplate extends React.Component {
 
   render() {
     return (
-        <div class="container">
-        <a class="btn">Hover me</a>
+        <div class=".btntemplate">
+        <a class="btn">{this.props.text}</a>
         </div>
     );
   }

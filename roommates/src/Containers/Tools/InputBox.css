@@ -1,23 +1,37 @@
-body {
-    margin:40px;
+label {
+  margin: 10px;
+  width: 400px;
+}
+
+.lbl {
+  width: 100px;
+}
+
+.inputbox {
+    position: relative;
+    text-align: right;
+    margin:10px;
+    padding-right: 10%;
+    /* flex-wrap: nowrap; */
   }
-  * {
+  /* * {
     box-sizing: border-box;
-  }
+  } */
   input {
-    display:block;
-    width:100%;
+    /* display:flex; */
+    /* width:100%; */
     margin:10px 0;
     padding:10px;
   }
   
-  .type-2 {
-    background-color: #fafafa;
+  .box {
+    background-color: #9fffcb;
+    width: 50%;
     border:0;
     box-shadow:0 0 4px rgba(0,0,0,0.3);
     transition: .3s box-shadow;
   }
-  .type-2:hover {
+  .box:hover {
     box-shadow:0 0 4px rgba(0,0,0,0.5);
   }
  
