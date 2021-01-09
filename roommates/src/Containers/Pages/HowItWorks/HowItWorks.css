@@ -1,0 +1,10 @@
+html {
+    color: blue;
+    background-image: url('./pexels-photo-5137980.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.headerimg {
+    width: 100%;
+}
