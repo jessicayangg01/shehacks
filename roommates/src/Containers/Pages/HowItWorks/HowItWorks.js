@@ -6,12 +6,13 @@ class HowItWorks extends React.Component {
 
   render() {
     return (
-        <div>
+        <div className="howitworks" height={window.innerHeight}>
             {/* <img src={dorm} alt="Dorm Room" class="headerimg"></img> */}
             <h1>How It Works</h1>
-            <body>
+          
                 <p>hello</p>
-            </body>
+                <p>helloooo</p>
+            
         </div>
     );
   }

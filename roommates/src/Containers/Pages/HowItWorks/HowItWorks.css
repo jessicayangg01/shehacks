@@ -1,8 +1,10 @@
 .howitworks {
+    height:1000px;
     color: blue;
-    background-image: url('./pexels-photo-5137980.jpeg');
+    background-image: url('./pexels-daria-shevtsova-1054974.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: blueviolet;
 }
 
 .headerimg {
