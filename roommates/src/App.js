@@ -12,7 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={InputBox} />
+          <Route exact path="/" component={Home} />
           <Route path="/howitworks" component={HowItWorks} />
           <Route path="/MyProfile" component={MyProfile} />
         </Switch>
